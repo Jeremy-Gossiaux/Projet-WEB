@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: theba
+ * User: Axel
  * Date: 08/06/18
  * Time: 18:17
  */
@@ -30,7 +30,7 @@ class ventes
         $this->_datevente=$datevente;
     }
 
-
+    
 
     //-----------------------------------------
 
@@ -43,6 +43,8 @@ class ventes
         $this->_etat=$etat;
     }
 
+    //-----------------------------------------
+
     public function getUtilisateurs_utilisateur()
     {
         return $this->_utilisateurs_utilisateur;
@@ -52,4 +54,5 @@ class ventes
         $this->_utilisateurs_utilisateur=$utilisateurs_utilisateur;
     }
 
+    //-----------------------------------------
 }
